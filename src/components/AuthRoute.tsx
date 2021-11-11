@@ -4,7 +4,7 @@ import { useSelector } from "react-redux";
 import { Redirect, Route, RouteProps } from "react-router-dom";
 import { userSelector } from "../redux/reducers/user/selectors";
 
-const AuthRoute = ({ ...routeProps }: RouteProps) => {
+const AuthRoute = ({ ...routeProps }: RouteProps): JSX.Element => {
   const { user } = useSelector(userSelector);
 
   if (user.jwtToken != "") {
