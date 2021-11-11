@@ -1,0 +1,8 @@
+{
+  "form": {
+    "email": "Email Address",
+    "password": "Password",
+    "signIn": "Sign in",
+    "forgotPassword": "Forgot password?"
+  }
+}

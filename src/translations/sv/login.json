@@ -1,0 +1,8 @@
+{
+  "form": {
+    "email": "Email Adress",
+    "password": "Lösenord",
+    "signIn": "Logga in",
+    "forgotPassword": "Glömt lösenord?"
+  }
+}
